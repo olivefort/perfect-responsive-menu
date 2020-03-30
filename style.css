@@ -3,7 +3,6 @@
 }
 
 body {
-	overflow: hidden;
 	font-family: sans-serif;
 }
 
@@ -24,6 +23,11 @@ body {
 		transition: 0.2s 0.5s color ease-in-out;
 	}
 
+	.noScroll{
+		overflow-y: hidden;
+		overflow-x: hidden;
+	}
+	
 	.navigation button svg {
 		display: block;
 		pointer-events: none;
@@ -120,6 +124,7 @@ body {
 		margin: 0;
 	}
 
+	
 	#menu li {
 		padding: 1rem;
 	}
